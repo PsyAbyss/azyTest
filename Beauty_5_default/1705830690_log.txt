@@ -1,0 +1,21 @@
+batch_size,128
+dataset,Beauty_5
+device,cuda
+dropout_rate,0.5
+exp_weight,1.0
+factor,0.5
+hidden_units,64
+inference_only,False
+l2_emb,0.0
+lr,0.001
+maxlen,50
+num_blocks,2
+num_epochs,500
+num_heads,2
+output_attention,False
+state_dict_path,None
+time_interval_emb,True
+time_span,512
+train_dir,default
+epoch:10, time: 21.890605(s), test (25.86, 43.02), best (25.86, 43.02) [10, 10]
+epoch:20, time: 40.027017(s), test (28.11, 43.86), best (28.11, 43.86) [20, 20]
